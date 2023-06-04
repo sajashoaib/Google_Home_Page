@@ -127,10 +127,29 @@ section header ul li{
  section .footer .row.row2{
     display: flex;
     justify-content: space-between;
-
+ }
+ section .footer .row.row2 ul{
+    display: flex;
 
  }
- 
+ section .footer .row.row2 ul li{
+    list-style: none;
+
+ }
+ section .footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+ }
+ section .footer .row.row2 ul:nth-child(2) li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 2px;
+    margin-left: 25px;
+ }
+
 
 
 
