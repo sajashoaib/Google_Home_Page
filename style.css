@@ -19,6 +19,12 @@ section header{
     display: flex;
     justify-content: flex-end;
 }
-section header images img{
-    width: 100%;
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
 }
