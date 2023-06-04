@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+section header images img{
+    width: 100%;
+}
