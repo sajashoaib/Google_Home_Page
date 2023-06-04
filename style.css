@@ -96,6 +96,15 @@ section header ul li{
     border: 1px solid #ccc;
 
  }
+ section .main .languages{
+    margin-top: 30px;
+    display: flex;
+ }
+ section .main .languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+ }
 
 
 
